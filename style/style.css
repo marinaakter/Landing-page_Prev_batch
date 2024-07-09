@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,6 +7,7 @@
 }
 body {
   font-family: "Merriweather", serif;
+  /* font-family: "Inter", sans-serif; */
 }
 
 /* banner section style starts here */
@@ -48,4 +49,45 @@ body {
   line-height: 95px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+.discount-section-container {
+  width: 802.9px;
+  height: 806px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.discount-section-container h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.discount-section-container p {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.discount-section-container h2 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.discount-section-container img {
+  width: 802.9px;
+  height: 500px;
+  margin-top: 48px;
 }
